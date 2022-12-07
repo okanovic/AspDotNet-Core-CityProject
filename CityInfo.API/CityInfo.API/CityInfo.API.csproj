@@ -10,4 +10,13 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Properties\launchSettings.json" />
+    <None Remove="Controllers\" />
+    <None Remove="Controllers\Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Controllers\Models\" />
+  </ItemGroup>
 </Project>
