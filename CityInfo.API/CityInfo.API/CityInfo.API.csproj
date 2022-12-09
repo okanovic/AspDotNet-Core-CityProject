@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.11" />
   </ItemGroup>
 
   <ItemGroup>
@@ -15,6 +17,9 @@
     <None Remove="Controllers\" />
     <None Remove="Controllers\Models\" />
     <None Remove="Properties\" />
+    <None Remove="Microsoft.AspNetCore.JsonPatch" />
+    <None Remove="Newtonsoft.Json.Bson" />
+    <None Remove="Microsoft.AspNetCore.Mvc.NewtonsoftJson" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />

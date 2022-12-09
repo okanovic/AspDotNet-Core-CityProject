@@ -15,7 +15,7 @@ namespace CityInfo.API.Controllers
     {
         // GET: api/values
         [HttpGet]
-        public ActionResult<IEnumerable<PointOfInterestDto>> GetPointsOfInterest( int cityId )
+        public ActionResult<IEnumerable<PointOfInterestDto>> GetPointsOfInterest(int cityId)
         {
             var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == cityId);
 
@@ -73,6 +73,28 @@ namespace CityInfo.API.Controllers
                 cityId = cityId,
                 pointOfInterestId = finalPointOfInterest.Id
             }, finalPointOfInterest);
+        }
+
+        [HttpPut("{pointofinterestid}")]
+        public ActionResult UpdatePointOfInterest(int cityId, int pointOfInterestId, PointOfInterestForUpdateDto pointOfInterest)
+        {
+            var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == cityId);
+
+            if (city == null)
+            {
+                return NotFound();
+            }
+
+            var pointOfInterestFromStore = city.PointOfInterest.FirstOrDefault(c => c.Id == pointOfInterestId);
+
+            if (pointOfInterestFromStore == null)
+            {
+                return NotFound();
+            }
+
+            pointOfInterestFromStore.Name = pointOfInterest.Name;
+            pointOfInterestFromStore.Description = pointOfInterest.Description;
+            return NoContent();
         }
     }
 }
