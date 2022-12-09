@@ -14,9 +14,19 @@
     <None Remove="Properties\launchSettings.json" />
     <None Remove="Controllers\" />
     <None Remove="Controllers\Models\" />
+    <None Remove="Properties\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Controllers\Models\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Screenshot 2022-12-08 at 15.08.51.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="my-image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>

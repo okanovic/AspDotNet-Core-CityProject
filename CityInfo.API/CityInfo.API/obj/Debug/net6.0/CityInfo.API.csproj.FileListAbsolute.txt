@@ -30,3 +30,4 @@
 /Users/okantoper/Documents/Projects/PersonalTraining/AspDotNet-Core-CityProject/CityInfo.API/CityInfo.API/obj/Debug/net6.0/CityInfo.API.pdb
 /Users/okantoper/Documents/Projects/PersonalTraining/AspDotNet-Core-CityProject/CityInfo.API/CityInfo.API/obj/Debug/net6.0/CityInfo.API.genruntimeconfig.cache
 /Users/okantoper/Documents/Projects/PersonalTraining/AspDotNet-Core-CityProject/CityInfo.API/CityInfo.API/obj/Debug/net6.0/ref/CityInfo.API.dll
+/Users/okantoper/Documents/Projects/PersonalTraining/AspDotNet-Core-CityProject/CityInfo.API/CityInfo.API/bin/Debug/net6.0/my-image.png

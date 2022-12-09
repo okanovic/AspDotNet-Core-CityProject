@@ -1,26 +1,32 @@
 ﻿<Properties StartupConfiguration="{93062A3B-3B5A-4868-807A-67CCB4DE0592}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CityInfo.API/Program.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CityInfo.API/Controllers/PointsOfInterestController.cs">
     <Files>
-      <File FileName="CityInfo.API/Program.cs" Line="13" Column="1" />
+      <File FileName="CityInfo.API/Program.cs" Line="22" Column="1" />
+      <File FileName="CityInfo.API/Controllers/CitiesController.cs" Line="14" Column="55" />
+      <File FileName="CityInfo.API/Controllers/Models/CiryDro.cs" Line="12" Column="38" />
+      <File FileName="CityInfo.API/CitiesDataStore.cs" Line="65" Column="24" />
+      <File FileName="CityInfo.API/Controllers/Models/PointOfInterestDto.cs" Line="4" Column="33" />
+      <File FileName="CityInfo.API/Controllers/ValuesController.cs" Line="13" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CityInfo.API" expanded="True">
             <Node name="CityInfo.API" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="Models" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.CityInfo.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CityInfo.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
