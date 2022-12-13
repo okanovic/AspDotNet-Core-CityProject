@@ -1,0 +1,60 @@
+2022-12-12 12:37:57.398 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-12-12 12:37:57.559 +03:00 [DBG] Hosting starting
+2022-12-12 12:37:58.119 +03:00 [INF] Now listening on: https://localhost:7276
+2022-12-12 12:37:58.166 +03:00 [INF] Now listening on: http://localhost:5049
+2022-12-12 12:37:58.167 +03:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-12-12 12:37:58.171 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-12 12:37:58.174 +03:00 [INF] Hosting environment: Development
+2022-12-12 12:37:58.174 +03:00 [INF] Content root path: /Users/okantoper/Documents/Projects/PersonalTraining/AspDotNet-Core-CityProject/CityInfo.API/CityInfo.API
+2022-12-12 12:37:58.175 +03:00 [DBG] Hosting started
+2022-12-12 12:37:58.317 +03:00 [DBG] Connection id "0HMMS4I6TK3BV" accepted.
+2022-12-12 12:37:58.344 +03:00 [DBG] Connection id "0HMMS4I6TK3BV" started.
+2022-12-12 12:37:58.991 +03:00 [DBG] Connection id "0HMMS4I6TK3BV" received FIN.
+2022-12-12 12:37:59.008 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-12-12 12:37:59.046 +03:00 [DBG] Connection id "0HMMS4I6TK3BV" stopped.
+2022-12-12 12:37:59.053 +03:00 [DBG] Connection id "0HMMS4I6TK3BV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-12-12 12:37:59.111 +03:00 [DBG] Connection id "0HMMS4I6TK3C0" accepted.
+2022-12-12 12:37:59.111 +03:00 [DBG] Connection id "0HMMS4I6TK3C0" started.
+2022-12-12 12:37:59.133 +03:00 [DBG] Connection id "0HMMS4I6TK3C1" accepted.
+2022-12-12 12:37:59.136 +03:00 [DBG] Connection id "0HMMS4I6TK3C1" started.
+2022-12-12 12:37:59.533 +03:00 [DBG] Connection 0HMMS4I6TK3C1 established using the following protocol: "Tls12"
+2022-12-12 12:37:59.533 +03:00 [DBG] Connection 0HMMS4I6TK3C0 established using the following protocol: "Tls12"
+2022-12-12 12:37:59.636 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7276/swagger - -
+2022-12-12 12:37:59.638 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-12-12 12:37:59.686 +03:00 [DBG] Connection id "0HMMS4I6TK3C0" completed keep alive response.
+2022-12-12 12:37:59.691 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7276/swagger - - - 301 0 - 55.6347ms
+2022-12-12 12:37:59.695 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7276/swagger/index.html - -
+2022-12-12 12:37:59.801 +03:00 [DBG] Connection id "0HMMS4I6TK3C0" completed keep alive response.
+2022-12-12 12:37:59.802 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7276/swagger/index.html - - - 200 - text/html;charset=utf-8 106.1438ms
+2022-12-12 12:37:59.887 +03:00 [DBG] Connection id "0HMMS4I6TK3C2" accepted.
+2022-12-12 12:37:59.887 +03:00 [DBG] Connection id "0HMMS4I6TK3C2" started.
+2022-12-12 12:37:59.891 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7276/swagger/swagger-ui.css - -
+2022-12-12 12:37:59.891 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7276/swagger/swagger-ui-bundle.js - -
+2022-12-12 12:38:00.042 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-12-12 12:38:00.043 +03:00 [DBG] Connection id "0HMMS4I6TK3C0" completed keep alive response.
+2022-12-12 12:38:00.044 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7276/swagger/swagger-ui.css - - - 200 143632 text/css 152.0568ms
+2022-12-12 12:38:00.044 +03:00 [DBG] Connection 0HMMS4I6TK3C2 established using the following protocol: "Tls12"
+2022-12-12 12:38:00.046 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7276/swagger/swagger-ui-standalone-preset.js - -
+2022-12-12 12:38:00.464 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-12-12 12:38:00.465 +03:00 [DBG] Connection id "0HMMS4I6TK3C0" completed keep alive response.
+2022-12-12 12:38:00.491 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7276/swagger/swagger-ui-standalone-preset.js - - - 200 337162 text/javascript 420.1235ms
+2022-12-12 12:38:00.756 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-12-12 12:38:00.761 +03:00 [DBG] Connection id "0HMMS4I6TK3C1" completed keep alive response.
+2022-12-12 12:38:00.762 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7276/swagger/swagger-ui-bundle.js - - - 200 1092889 text/javascript 870.3676ms
+2022-12-12 12:38:00.864 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7276/swagger/v1/swagger.json - -
+2022-12-12 12:38:00.869 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7276/swagger/favicon-32x32.png - -
+2022-12-12 12:38:00.871 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-12-12 12:38:00.871 +03:00 [DBG] Connection id "0HMMS4I6TK3C0" completed keep alive response.
+2022-12-12 12:38:00.871 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7276/swagger/favicon-32x32.png - - - 200 628 image/png 1.7270ms
+2022-12-12 12:38:01.055 +03:00 [DBG] Connection id "0HMMS4I6TK3C1" completed keep alive response.
+2022-12-12 12:38:01.056 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7276/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 191.9746ms
+2022-12-12 19:54:40.762 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-12-12 19:54:42.278 +03:00 [DBG] Entity Framework Core 7.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-12-12 19:54:42.317 +03:00 [DBG] 'CityInfoContext' disposed.
+2022-12-12 19:55:42.038 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-12-12 19:55:42.726 +03:00 [DBG] Entity Framework Core 7.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-12-12 19:55:42.743 +03:00 [DBG] 'CityInfoContext' disposed.

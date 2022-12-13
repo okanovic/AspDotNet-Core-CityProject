@@ -502,3 +502,7 @@ System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport
 2022-12-10 17:39:32.008 +03:00 [DBG] Connection id "0HMMQNEI5ECRT" sending FIN because: "The client closed the connection."
 2022-12-10 17:39:32.034 +03:00 [DBG] Connection id "0HMMQNEI5ECRT" disconnecting.
 2022-12-10 17:39:32.040 +03:00 [DBG] Connection id "0HMMQNEI5ECRT" stopped.
+2022-12-10 17:50:21.020 +03:00 [DBG] Connection id "0HMMQNEI5ECRU" received FIN.
+2022-12-10 17:50:21.032 +03:00 [DBG] Connection id "0HMMQNEI5ECRU" sending FIN because: "The client closed the connection."
+2022-12-10 17:50:21.033 +03:00 [DBG] Connection id "0HMMQNEI5ECRU" disconnecting.
+2022-12-10 17:50:21.042 +03:00 [DBG] Connection id "0HMMQNEI5ECRU" stopped.
